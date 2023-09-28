@@ -1,0 +1,59 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Courier New', Courier, monospace;
+}
+body{
+    background-color: lightcyan
+}
+img{
+   width:15em;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.logo-container {
+    text-align: center;
+    height: 130px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper{
+    text-align: center;
+    justify-content: center;
+    display: block;
+    gap: 2px;;
+}
+
+.wrapper label{
+    display: block;
+    margin-top: 10px;;
+}
+
+.note-container {
+    display: flex;
+    align-items: center;
+    margin: 10px 0; /* Add space around the note container */
+}
+
+.note-checkbox {
+   
+    margin:auto;
+    
+    
+}
+
+
+
+.note-container button {
+    margin:auto; /* Add space to the left of the button */
+    
+}
+
+.note-input {
+    margin-right: 10px; /* Add space to the right of the input field */
+    text-align: center;
+}
